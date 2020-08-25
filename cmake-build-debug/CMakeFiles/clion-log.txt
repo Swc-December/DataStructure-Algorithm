@@ -1,0 +1,4 @@
+D:\DevelopTools\Cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Repositories\DataStructure-Algorithm
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Repositories/DataStructure-Algorithm/cmake-build-debug

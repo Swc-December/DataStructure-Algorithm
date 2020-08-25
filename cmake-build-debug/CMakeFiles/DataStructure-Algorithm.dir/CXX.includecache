@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Algorithm/Fundament/UnionFind.h
+iostream
+-
+vector
+-
+
+../DataStructure/Bag.h
+
+D:/Repositories/DataStructure-Algorithm/Algorithm/Fundament/UnionFind.cpp
+UnionFind.h
+D:/Repositories/DataStructure-Algorithm/Algorithm/Fundament/UnionFind.h
+
+D:/Repositories/DataStructure-Algorithm/Algorithm/Fundament/UnionFind.h
+iostream
+-
+vector
+-
+
+D:/Repositories/DataStructure-Algorithm/main.cpp
+Bag.h
+D:/Repositories/DataStructure-Algorithm/Bag.h
+iostream
+-
+fstream
+-
+string
+-
+UnionFind.h
+-
+
