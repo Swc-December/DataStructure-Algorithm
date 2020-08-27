@@ -12,17 +12,13 @@ iostream
 vector
 -
 
-../DataStructure/Bag.h
-
-D:/Repositories/DataStructure-Algorithm/Algorithm/Fundament/UnionFind.cpp
-UnionFind.h
-D:/Repositories/DataStructure-Algorithm/Algorithm/Fundament/UnionFind.h
-
-D:/Repositories/DataStructure-Algorithm/Algorithm/Fundament/UnionFind.h
-iostream
--
+../Algorithm/Sorting/PrimarySort.h
 vector
 -
+iostream
+-
+
+../DataStructure/Bag.h
 
 D:/Repositories/DataStructure-Algorithm/main.cpp
 Bag.h
@@ -34,5 +30,7 @@ fstream
 string
 -
 UnionFind.h
+-
+PrimarySort.h
 -
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Fundament/UnionFind.cpp.obj"
+  "CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.obj"
   "CMakeFiles/DataStructure-Algorithm.dir/main.cpp.obj"
   "DataStructure-Algorithm.exe"
   "DataStructure-Algorithm.exe.manifest"

@@ -26,6 +26,7 @@
 				<Compiler>
 					<Add directory="D:/Repositories/DataStructure-Algorithm/DataStructure"/>
 					<Add directory="D:/Repositories/DataStructure-Algorithm/Algorithm/Fundament"/>
+					<Add directory="D:/Repositories/DataStructure-Algorithm/Algorithm/Sorting"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="D:/DevelopTools/mingw64/bin/mingw32-make.exe -f &quot;D:/Repositories/DataStructure-Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructure-Algorithm"/>
@@ -43,6 +44,7 @@
 				<Compiler>
 					<Add directory="D:/Repositories/DataStructure-Algorithm/DataStructure"/>
 					<Add directory="D:/Repositories/DataStructure-Algorithm/Algorithm/Fundament"/>
+					<Add directory="D:/Repositories/DataStructure-Algorithm/Algorithm/Sorting"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="D:/DevelopTools/mingw64/bin/mingw32-make.exe -f &quot;D:/Repositories/DataStructure-Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructure-Algorithm/fast"/>
@@ -76,6 +78,12 @@
 			<Option target="DataStructure-Algorithm"/>
 		</Unit>
 		<Unit filename="D:/Repositories/DataStructure-Algorithm/Algorithm/Fundament/UnionFind.h">
+			<Option target="DataStructure-Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Repositories/DataStructure-Algorithm/Algorithm/Sorting/PrimarySort.cpp">
+			<Option target="DataStructure-Algorithm"/>
+		</Unit>
+		<Unit filename="D:/Repositories/DataStructure-Algorithm/Algorithm/Sorting/PrimarySort.h">
 			<Option target="DataStructure-Algorithm"/>
 		</Unit>
 		<Unit filename="D:/Repositories/DataStructure-Algorithm/main.cpp">

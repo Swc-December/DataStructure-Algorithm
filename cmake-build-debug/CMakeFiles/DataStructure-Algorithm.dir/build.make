@@ -87,10 +87,24 @@ CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Fundament/UnionFind.cpp.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Fundament/UnionFind.cpp.s"
 	D:\DevelopTools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Repositories\DataStructure-Algorithm\Algorithm\Fundament\UnionFind.cpp -o CMakeFiles\DataStructure-Algorithm.dir\Algorithm\Fundament\UnionFind.cpp.s
 
+CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.obj: CMakeFiles/DataStructure-Algorithm.dir/flags.make
+CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.obj: CMakeFiles/DataStructure-Algorithm.dir/includes_CXX.rsp
+CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.obj: ../Algorithm/Sorting/PrimarySort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Repositories\DataStructure-Algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.obj"
+	D:\DevelopTools\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure-Algorithm.dir\Algorithm\Sorting\PrimarySort.cpp.obj -c D:\Repositories\DataStructure-Algorithm\Algorithm\Sorting\PrimarySort.cpp
+
+CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.i"
+	D:\DevelopTools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Repositories\DataStructure-Algorithm\Algorithm\Sorting\PrimarySort.cpp > CMakeFiles\DataStructure-Algorithm.dir\Algorithm\Sorting\PrimarySort.cpp.i
+
+CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.s"
+	D:\DevelopTools\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Repositories\DataStructure-Algorithm\Algorithm\Sorting\PrimarySort.cpp -o CMakeFiles\DataStructure-Algorithm.dir\Algorithm\Sorting\PrimarySort.cpp.s
+
 CMakeFiles/DataStructure-Algorithm.dir/main.cpp.obj: CMakeFiles/DataStructure-Algorithm.dir/flags.make
 CMakeFiles/DataStructure-Algorithm.dir/main.cpp.obj: CMakeFiles/DataStructure-Algorithm.dir/includes_CXX.rsp
 CMakeFiles/DataStructure-Algorithm.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Repositories\DataStructure-Algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructure-Algorithm.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Repositories\DataStructure-Algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DataStructure-Algorithm.dir/main.cpp.obj"
 	D:\DevelopTools\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure-Algorithm.dir\main.cpp.obj -c D:\Repositories\DataStructure-Algorithm\main.cpp
 
 CMakeFiles/DataStructure-Algorithm.dir/main.cpp.i: cmake_force
@@ -104,18 +118,20 @@ CMakeFiles/DataStructure-Algorithm.dir/main.cpp.s: cmake_force
 # Object files for target DataStructure-Algorithm
 DataStructure__Algorithm_OBJECTS = \
 "CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Fundament/UnionFind.cpp.obj" \
+"CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.obj" \
 "CMakeFiles/DataStructure-Algorithm.dir/main.cpp.obj"
 
 # External object files for target DataStructure-Algorithm
 DataStructure__Algorithm_EXTERNAL_OBJECTS =
 
 DataStructure-Algorithm.exe: CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Fundament/UnionFind.cpp.obj
+DataStructure-Algorithm.exe: CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.obj
 DataStructure-Algorithm.exe: CMakeFiles/DataStructure-Algorithm.dir/main.cpp.obj
 DataStructure-Algorithm.exe: CMakeFiles/DataStructure-Algorithm.dir/build.make
 DataStructure-Algorithm.exe: CMakeFiles/DataStructure-Algorithm.dir/linklibs.rsp
 DataStructure-Algorithm.exe: CMakeFiles/DataStructure-Algorithm.dir/objects1.rsp
 DataStructure-Algorithm.exe: CMakeFiles/DataStructure-Algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Repositories\DataStructure-Algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DataStructure-Algorithm.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Repositories\DataStructure-Algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DataStructure-Algorithm.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructure-Algorithm.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,7 +4,11 @@
 CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Fundament/UnionFind.cpp.obj: ../Algorithm/Fundament/UnionFind.cpp
 CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Fundament/UnionFind.cpp.obj: ../Algorithm/Fundament/UnionFind.h
 
+CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.obj: ../Algorithm/Sorting/PrimarySort.cpp
+CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.obj: ../Algorithm/Sorting/PrimarySort.h
+
 CMakeFiles/DataStructure-Algorithm.dir/main.cpp.obj: ../Algorithm/Fundament/UnionFind.h
+CMakeFiles/DataStructure-Algorithm.dir/main.cpp.obj: ../Algorithm/Sorting/PrimarySort.h
 CMakeFiles/DataStructure-Algorithm.dir/main.cpp.obj: ../DataStructure/Bag.h
 CMakeFiles/DataStructure-Algorithm.dir/main.cpp.obj: ../main.cpp
 

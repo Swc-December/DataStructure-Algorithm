@@ -166,6 +166,33 @@ Algorithm/Fundament/UnionFind.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure-Algorithm.dir\build.make CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Fundament/UnionFind.cpp.s
 .PHONY : Algorithm/Fundament/UnionFind.cpp.s
 
+Algorithm/Sorting/PrimarySort.obj: Algorithm/Sorting/PrimarySort.cpp.obj
+
+.PHONY : Algorithm/Sorting/PrimarySort.obj
+
+# target to build an object file
+Algorithm/Sorting/PrimarySort.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure-Algorithm.dir\build.make CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.obj
+.PHONY : Algorithm/Sorting/PrimarySort.cpp.obj
+
+Algorithm/Sorting/PrimarySort.i: Algorithm/Sorting/PrimarySort.cpp.i
+
+.PHONY : Algorithm/Sorting/PrimarySort.i
+
+# target to preprocess a source file
+Algorithm/Sorting/PrimarySort.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure-Algorithm.dir\build.make CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.i
+.PHONY : Algorithm/Sorting/PrimarySort.cpp.i
+
+Algorithm/Sorting/PrimarySort.s: Algorithm/Sorting/PrimarySort.cpp.s
+
+.PHONY : Algorithm/Sorting/PrimarySort.s
+
+# target to generate assembly for a file
+Algorithm/Sorting/PrimarySort.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure-Algorithm.dir\build.make CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.s
+.PHONY : Algorithm/Sorting/PrimarySort.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -205,6 +232,9 @@ help:
 	@echo ... Algorithm/Fundament/UnionFind.obj
 	@echo ... Algorithm/Fundament/UnionFind.i
 	@echo ... Algorithm/Fundament/UnionFind.s
+	@echo ... Algorithm/Sorting/PrimarySort.obj
+	@echo ... Algorithm/Sorting/PrimarySort.i
+	@echo ... Algorithm/Sorting/PrimarySort.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Repositories/DataStructure-Algorithm/Algorithm/Fundament/UnionFind.cpp" "D:/Repositories/DataStructure-Algorithm/cmake-build-debug/CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Fundament/UnionFind.cpp.obj"
+  "D:/Repositories/DataStructure-Algorithm/Algorithm/Sorting/PrimarySort.cpp" "D:/Repositories/DataStructure-Algorithm/cmake-build-debug/CMakeFiles/DataStructure-Algorithm.dir/Algorithm/Sorting/PrimarySort.cpp.obj"
   "D:/Repositories/DataStructure-Algorithm/main.cpp" "D:/Repositories/DataStructure-Algorithm/cmake-build-debug/CMakeFiles/DataStructure-Algorithm.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -13,6 +14,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../DataStructure"
   "../Algorithm/Fundament"
+  "../Algorithm/Sorting"
   )
 
 # Targets to which this target links.
